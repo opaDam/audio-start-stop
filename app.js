@@ -1,5 +1,6 @@
 $(function () {
   var audio = $("#audio")[0];
+  // var audio = new Audio();
 
   $(".playBtn").on("click", function () {
     audio.play();
