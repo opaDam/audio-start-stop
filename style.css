@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 audio {
   position: relative;
   height: 28px;
@@ -16,8 +17,8 @@ audio {
 
 .btn {
   position: relative;
-  margin: 5px ;
-  padding: 5px ;
+  margin: 5px;
+  padding: 5px;
   display: flex;
   flex-direction: row;
   display: inline-flexbox;
@@ -45,6 +46,7 @@ li {
   align-items: center;
   border-radius: 6px;
 }
+
 a {
   display: unset;
 }
