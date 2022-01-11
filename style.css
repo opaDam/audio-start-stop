@@ -1,26 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-audio{
-    position: relative;
-    height: 28px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin: 5px auto;
-    padding: 5px auto;
-    display: flex;
+audio {
+  position: relative;
+  height: 28px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 5px auto;
+  padding: 5px auto;
+  display: flex;
 }
 
-.btn{
-    position: relative;
-    margin: 0px auto;
-    padding: 5px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    border-radius: 6px;
+.btn {
+  position: relative;
+  margin: 0px auto;
+  padding: 5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
 }
