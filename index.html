@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <audio
-      id="audio"
-      src="https://opadam.github.io/map/map/a2"
-      controls
-    ></audio>
-    <br />
-    <button class="playBtn btn">Play</button>
-    <br />
-    <button class="pauseBtn btn">Pause</button>
-    <br />
-    <button class="stopBtn btn">Stop</button>
+</head>
 
+<body>
+    <audio id="audio" src="https://opadam.github.io/map/map/a2" controls loop></audio>
+    <button class="playBtn btn">Play</button>
+    <button class="pauseBtn btn">Pause</button>
+    <button class="stopBtn btn">Stop</button>
+    <ul class="ul-list">
+        <li data-song="a1">Donna</li>
+        <li data-song="a2">A Ha</li>
+    </ul>
+    <a href=""></a>
 
     <script defer src="./app.js"></script>
-  </body>
+</body>
+
 </html>

@@ -16,11 +16,33 @@ audio {
 
 .btn {
   position: relative;
-  margin: 0px auto;
+  margin: 5px auto;
   padding: 5px;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
   border-radius: 6px;
+}
+
+ul {
+  list-style: none;
+  position: relative;
+  margin: 0px auto;
+  padding: 5px;
+}
+
+li {
+  position: relative;
+  margin: 0px auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+a {
+  display: unset;
 }
