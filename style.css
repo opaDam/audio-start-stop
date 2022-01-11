@@ -26,6 +26,7 @@ audio {
   justify-content: center;
   align-items: center;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 ul {
@@ -45,8 +46,7 @@ li {
   justify-content: center;
   align-items: center;
   border-radius: 6px;
+  cursor: pointer;
 }
 
-a {
-  display: unset;
-}
+
