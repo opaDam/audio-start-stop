@@ -3,3 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+audio{
+    height: 24px;
+}
+
