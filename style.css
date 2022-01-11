@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 audio{
-    height: 24px;
+    position: relative;
+    height: 28px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 5px auto;
+    padding: 5px auto;
+    display: flex;
 }
 
+.btn{
+    position: relative;
+    margin: 0px auto;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
