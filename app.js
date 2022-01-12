@@ -32,8 +32,7 @@ $('document').ready(function () {
     $(".ul-list").on("click", function (e) {
       var song = e.target.dataset.song;
       audio.src = "https://opadam.github.io/map/map/" + song;
-
-      audio.toggleAttribute('autoplay');
+      // audio.toggleAttribute('autoplay');
       $(".songPlay")[0].innerText = (e.target.innerText);
       $(".pauseBtn").show(1000);
       $(".playBtn").hide(1000);

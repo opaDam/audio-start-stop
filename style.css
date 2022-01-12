@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  position: relative;
+}
 
 audio {
   position: relative;
@@ -15,6 +18,13 @@ audio {
   display: flex;
 }
 
+.container{
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  background-color: aqua;
+  min-height: 120px;
+}
 .btn {
   position: relative;
   margin: 5px;
@@ -35,6 +45,7 @@ ul {
   position: relative;
   margin: 0px auto;
   padding: 5px;
+  height: 1080px;
 }
 
 li {
