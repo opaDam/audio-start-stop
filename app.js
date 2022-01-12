@@ -2,7 +2,7 @@ $(function () {
   var audio = $("#audio")[0];
 
   $(".playBtn").on("click", function () {
-    audio.play();
+      audio.play();
   });
 
   $(".pauseBtn").on("click", function () {
@@ -20,6 +20,7 @@ $(function () {
     var song = e.target.dataset.song;
     audio.src = "https://opadam.github.io/map/map/" + song;
     audio.toggleAttribute('autoplay');
+    $(".songPlay")[0].innerText = (e.target.innerText);
   });
 });
 

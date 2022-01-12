@@ -27,6 +27,7 @@ audio {
   align-items: center;
   border-radius: 6px;
   cursor: pointer;
+  width: 400;
 }
 
 ul {
@@ -50,4 +51,12 @@ li {
   text-transform: uppercase;
 }
 
+.Btn{
+  width: 100px;
+}
 
+.songPlay{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
