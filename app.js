@@ -1,6 +1,7 @@
-$('document').ready(function () {
+$("document").ready(function () {
   $(function () {
     var audio = $("#audio")[0];
+    console.log(audio);
     $(".pauseBtn").hide();
     $(".stopBtn").hide(1000);
 
@@ -26,19 +27,30 @@ $('document').ready(function () {
       audio.currentTime = 0;
     });
     $("#audio").on("ended", function () {
+      console.log("goed");
+      audio.pause();
       this.currentTime = 0;
     });
-
+    var playSong;
     $(".ul-list").on("click", function (e) {
+      if (playSong) {
+        playSong.removeClass("blue");
+      }
       var song = e.target.dataset.song;
-      if (!song){return}
+      index = +e.target.className;
+      if (!song) {
+        return;
+      }
       audio.src = "https://opadam.github.io/map/map/" + song;
-      // audio.toggleAttribute('autoplay');
-      $(".songPlay")[0].innerText = (e.target.innerText);
+      $(".songPlay")[0].innerText = e.target.innerText;
+      playSong = $("li." + [index]);
+      var ind = index;
+      playSong.addClass("blue");
+      console.log($(playSong));
       $(".pauseBtn").show(1000);
       $(".playBtn").hide(1000);
       $(".stopBtn").show(1000);
     });
   });
-});
 
+});
