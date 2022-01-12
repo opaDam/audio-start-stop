@@ -16,6 +16,7 @@ audio {
   margin: 5px auto;
   padding: 5px auto;
   display: flex;
+  display: none;
 }
 
 .container{
