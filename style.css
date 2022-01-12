@@ -47,6 +47,7 @@ li {
   align-items: center;
   border-radius: 6px;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 
