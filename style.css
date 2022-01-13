@@ -82,7 +82,7 @@ li {
 
 .box {
   position: fixed;
-  top: 5px;
+  top: 15px;
   width: 120px;
   border-radius: 200px;
 }
