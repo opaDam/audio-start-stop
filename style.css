@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   position: relative;
 }
 
@@ -19,12 +19,16 @@ audio {
   /* display: none; */
 }
 
-.container{
+.container {
   position: sticky;
   top: 0px;
   z-index: 10;
-  background-color: aqua;
-  min-height: 120px;
+  background-color: rgb(255, 208, 0);
+  min-height: 130px;
+  border: 1px solid;
+}
+.container2 {
+  background-color: cornflowerblue;
 }
 .btn {
   position: relative;
@@ -36,7 +40,7 @@ audio {
   text-align: center;
   justify-content: center;
   align-items: center;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
   width: 400;
 }
@@ -46,7 +50,7 @@ ul {
   position: relative;
   margin: 0px auto;
   padding: 5px;
-  height: 1080px;
+  height: 100vh;
 }
 
 li {
@@ -55,24 +59,37 @@ li {
   padding: 5px;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  justify-content: center;
   align-items: center;
   border-radius: 6px;
   cursor: pointer;
   text-transform: uppercase;
 }
 
-.Btn{
+.Btn {
   width: 100px;
+  background-color: cornflowerblue;
 }
 
-.songPlay{
+.songPlay {
   display: flex;
   justify-content: center;
   margin: 5px;
 }
 
-.blue{
+.blue {
   color: blue;
+}
+
+.box {
+  position: fixed;
+  top: 5px;
+  width: 120px;
+  border-radius: 200px;
+}
+.box1 {
+  left: 30px;
+}
+
+.box2 {
+  right: 30px;
 }
