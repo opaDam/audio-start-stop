@@ -11,8 +11,8 @@ $("document").ready(function () {
       $(".pauseBtn").show(1000);
       $(".stopBtn").show(1000);
       console.log(this);
-      $("#box1")[0].src = "../images/box1.gif";
-      $("#box2")[0].src = "../images/box1.gif";
+      $("#box1")[0].src = "./images/box1.gif";
+      $("#box2")[0].src = "./images/box1.gif";
     });
 
     $(".pauseBtn").on("click", function () {
@@ -20,8 +20,8 @@ $("document").ready(function () {
       $(".playBtn").show(1000);
       $(".stopBtn").hide(1000);
       audio.pause();
-      $("#box1")[0].src = "../images/box.gif";
-      $("#box2")[0].src = "../images/box.gif";
+      $("#box1")[0].src = "./images/box.gif";
+      $("#box2")[0].src = "./images/box.gif";
     });
     $(".stopBtn").on("click", function () {
       $(".pauseBtn").hide(1000);
@@ -29,15 +29,15 @@ $("document").ready(function () {
       $(".stopBtn").hide(1000);
       audio.pause();
       audio.currentTime = 0;
-      $("#box1")[0].src = "../images/box.gif";
-      $("#box2")[0].src = "../images/box.gif";
+      $("#box1")[0].src = "./images/box.gif";
+      $("#box2")[0].src = "./images/box.gif";
     });
     $("#audio").on("ended", function () {
       console.log("goed");
       audio.pause();
       this.currentTime = 0;
-      $("#box1")[0].src = "../images/box.gif";
-      $("#box2")[0].src = "../images/box.gif";
+      $("#box1")[0].src = "./images/box.gif";
+      $("#box2")[0].src = "./images/box.gif";
     });
     var playSong;
     $(".ul-list").on("click", function (e) {
@@ -59,8 +59,8 @@ $("document").ready(function () {
       $(".playBtn").hide(1000);
       $(".stopBtn").show(1000);
 
-      $("#box1")[0].src = "../images/box1.gif";
-      $("#box2")[0].src = "../images/box1.gif";
+      $("#box1")[0].src = "./images/box1.gif";
+      $("#box2")[0].src = "./images/box1.gif";
 
     });
   });
