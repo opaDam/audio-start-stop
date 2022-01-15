@@ -39,6 +39,7 @@ $("document").ready(function () {
       $("#box1")[0].src = "./images/box.gif";
       $("#box2")[0].src = "./images/box.gif";
     });
+    
     var playSong;
     $(".ul-list").on("click", function (e) {
       if (playSong) {

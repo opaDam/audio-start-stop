@@ -24,7 +24,7 @@ audio {
   top: 0px;
   z-index: 10;
   background-color: rgb(255, 208, 0);
-  min-height: 130px;
+  min-height: 150px;
   border: 1px solid;
 }
 .container2 {
