@@ -56,9 +56,9 @@ $("document").ready(function () {
       var ind = index;
       playSong.addClass("blue");
       console.log($(playSong));
-      $(".pauseBtn").show(1000);
-      $(".playBtn").hide(1000);
-      $(".stopBtn").show(1000);
+      $(".pauseBtn").hide(1000);
+      $(".playBtn").show(1000);
+      $(".stopBtn").hide(1000);
 
       $("#box1")[0].src = "./images/box1.gif";
       $("#box2")[0].src = "./images/box1.gif";
