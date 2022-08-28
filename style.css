@@ -23,7 +23,7 @@ audio {
   position: sticky;
   top: 0px;
   z-index: 10;
-  background-color: rgb(255, 208, 0);
+  background-color: rgb(255, 153, 0);
   min-height: 150px;
   border: 1px solid;
 }
@@ -42,7 +42,7 @@ audio {
   align-items: center;
   border-radius: 8px;
   cursor: pointer;
-  width: 400;
+  width: 300;
 }
 
 ul {
@@ -87,9 +87,9 @@ li {
   border-radius: 200px;
 }
 .box1 {
-  left: 2%;
+  left: 12%;
 }
 
 .box2 {
-  right: 2%;
+  right:12%;
 }
